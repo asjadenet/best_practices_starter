@@ -6,8 +6,8 @@ find_package(fmt)
 add_executable(fuzz_tester fuzz_tester.cpp)
 target_link_libraries(
   fuzz_tester
-  PRIVATE myproject_options
-          myproject_warnings
+  PRIVATE best_practices_starter_options
+          best_practices_starter_warnings
           fmt::fmt
           -coverage
           -fsanitize=fuzzer)
