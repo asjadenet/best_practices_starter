@@ -119,3 +119,5 @@ set(CPACK_PACKAGE_FILE_NAME
 )
 
 include(CPack)
+
+# let's add a comment and force CI build everything
