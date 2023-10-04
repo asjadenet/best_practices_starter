@@ -29,7 +29,7 @@ function(best_practices_starter_setup_dependencies)
   endif()
 
   if(NOT TARGET CLI11::CLI11)
-    cpmaddpackage("gh:CLIUtils/CLI11@3.4.0")
+    cpmaddpackage("gh:CLIUtils/CLI11@2.3.2")
   endif()
 
   if(NOT TARGET ftxui::screen)
