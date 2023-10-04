@@ -18,4 +18,5 @@ TEST_CASE("Factorials are computed with constexpr", "[factorial]")
 TEST_CASE("Factorials are computed with constexpr", "[factorial]")
 {
 	  STATIC_REQUIRE(factorial_constexpr(0) == 1); // cppcheck-suppress knownConditionTrueFalse
+	  STATIC_REQUIRE(factorial_constexpr(1) == 1); // cppcheck-suppress knownConditionTrueFalse
 }
