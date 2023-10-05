@@ -54,6 +54,12 @@ jobs:
           # mingw is determined by this author to be too buggy to support
           - os: windows-2019
             compiler: gcc-11
+            compiler: gcc-12
+            compiler: gcc-13
+            
+          - os: ubuntu-20.04
+            compiler: gcc-12            
+            compiler: gcc-13
 
         include:
           # Add appropriate variables for gcov version required. This will intentionally break
