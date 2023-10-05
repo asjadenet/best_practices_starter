@@ -29,6 +29,7 @@ jobs:
       # and your own projects needs
       matrix:
         os:
+          - ubuntu-latest
           - ubuntu-20.04
           - macos-latest
           - windows-2019
