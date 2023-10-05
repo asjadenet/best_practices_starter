@@ -52,7 +52,7 @@ jobs:
         exclude:
           # mingw is determined by this author to be too buggy to support
           - os: windows-2019
-            compiler: gcc-11
+            compiler: gcc
 
         include:
           # Add appropriate variables for gcov version required. This will intentionally break
