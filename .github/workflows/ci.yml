@@ -37,7 +37,6 @@ jobs:
           # you can specify the version after `-` like "llvm-15.0.2".
           - llvm-15.0.2
           - gcc-11
-          - gcc-12
           - gcc-13
         generator:
           - "Ninja Multi-Config"
@@ -61,6 +60,10 @@ jobs:
           - compiler: gcc-11
             gcov_executable: gcov
             enable_ipo: On
+            
+          - compiler: gcc-13
+            gcov_executable: gcov
+            enable_ipo: On            
 
           - compiler: llvm-15.0.2
             enable_ipo: Off
