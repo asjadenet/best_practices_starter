@@ -62,7 +62,7 @@ jobs:
             enable_ipo: On
             
           - compiler: gcc-13
-            gcov_executable: gcov
+            gcov_executable: gcov-13
             enable_ipo: On            
 
           - compiler: llvm-15.0.2
